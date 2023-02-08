@@ -1,0 +1,8 @@
+
+
+dataset:
+  dataset_path: "./archive/Datasets/final_dataset.csv"
+  dataset_encoding: "cp1252"
+  max_features: 5000
+
+model_filename: "./models/Spamclassifier"
