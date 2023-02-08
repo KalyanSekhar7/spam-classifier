@@ -1,6 +1,10 @@
 FROM python:3.11.1
 
-ADD  spam classifier ..
+ADD  . .
 
 RUN pip install -r requirements.txt
+
+CMD ["python","./main.py"]
+
+
 
